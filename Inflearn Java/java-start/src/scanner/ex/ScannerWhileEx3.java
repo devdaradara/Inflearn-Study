@@ -10,14 +10,19 @@ public class ScannerWhileEx3 {
         int sum = 0;
         int count = 0;
 
-        while (true) {
-            int num = scanner.nextInt();
-
-            if (num == -1) {
-                break;
-            }
-
-            sum += num;
+//        while (true) {
+//            int num = scanner.nextInt();
+//
+//            if (num == -1) {
+//                break;
+//            }
+//
+//            sum += num;
+//            count++;
+//        }
+        int input = 0;
+        while ((input = scanner.nextInt()) != -1) {
+            sum += input;
             count++;
         }
 
